@@ -1,0 +1,12 @@
+\begin{table}[!htbp]\centering\scriptsize
+\caption{Monte-Carlo summary (SNR 10\,dB, $N=500$; trials with all four Stage-1 peaks resolved / total). Columns
+per source: $30\lambda$, $300\lambda$, $1000\lambda$, $5000\lambda$.}\label{tab:mc}
+\setlength{\tabcolsep}{2.6pt}
+\begin{tabular}{@{}l|cccc|cccc|cccc|cccc@{}}\toprule
+ & \multicolumn{4}{c|}{Stage-1 DOA RMSE ($^\circ$)} & \multicolumn{4}{c|}{Final DOA RMSE ($^\circ$)} &
+ \multicolumn{4}{c|}{Median $|\Delta r|/r$ (\%)} & \multicolumn{4}{c}{$|\Delta r|/r<5\%$ (\% trials)}\\\midrule
+ICC as stated (15/15) & 0.83 & 0.44 & 0.47 & 0.22 & 0.041 & 0.040 & 0.173 & 0.031 & 0.4 & 2.5 & 9.9 & 60.0 & 100 & 93 & 27 & 13 \\
+Journal as stated (15/15) & 0.83 & 0.44 & 0.47 & 0.22 & 0.031 & 0.313 & 0.280 & 0.122 & 0.3 & 4.4 & 53.9 & 98.8 & 100 & 67 & 0 & 33 \\
+Journal fig.-implied (15/15) & 2.16 & 0.30 & 0.10 & 0.04 & 0.029 & 0.008 & 0.045 & 0.028 & 0.0 & 0.2 & 5.7 & 3.4 & 100 & 100 & 0 & 87 \\
+Improved (15/15) & 2.14 & 0.29 & 0.10 & 0.03 & 0.019 & 0.009 & 0.007 & 0.019 & 0.0 & 0.1 & 0.7 & 4.9 & 100 & 100 & 100 & 53 \\
+\bottomrule\end{tabular}\end{table}
